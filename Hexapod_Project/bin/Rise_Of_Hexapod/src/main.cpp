@@ -1,11 +1,28 @@
 #include <Arduino.h>
+#include <Servo.h>
 
 // put function declarations here:
-int myFunction(int, int);
+
+Servo myServo1;
+Servo myServo2;
+Servo myServo3;
+Servo myServo4;
+Servo myServo5;
+Servo myServo6;
+Servo myServo7;
+Servo myServo8;
+Servo myServo9;
+Servo myServo10;
+Servo myServo11;
+Servo myServo12;
+Servo myServo13;
+Servo myServo14;
+Servo myServo15;
+Servo myServo16;
 
 void setup() {
   // put your setup code here, to run once:
-  int result = myFunction(2, 3);q 
+
 }
 
 void loop() {
@@ -13,6 +30,3 @@ void loop() {
 }
 
 // put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
-}
